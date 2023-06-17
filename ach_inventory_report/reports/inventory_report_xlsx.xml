@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <data>
+                <report
+                        id="inventory_report"
+                        model="ach.inventory.report"
+                        string="Inventory Report"
+                        report_type="xlsx"
+                        name="ach_inventory_report.xlsx_inventory_report"
+                        file="Inventory Report"
+                        attachment_use="False"/>
+        </data>
+</odoo>
